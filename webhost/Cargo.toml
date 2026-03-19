@@ -1,0 +1,12 @@
+[package]
+name = "webhost"
+version = "0.1.0"
+edition = "2024"
+description = "Webserver supporting ACME, file serving, and caching"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+hashedfile = { path = "../hashedfile" }
+http = { path = "../http" }
+time = { path = "../time" }
