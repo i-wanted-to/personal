@@ -1,0 +1,10 @@
+[package]
+name = "gvg"
+version = "0.1.0"
+edition = "2024"
+description = "GPU Vector Graphics generated from traditional vector graphics"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+vector = { path = "../vector" }
