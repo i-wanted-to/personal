@@ -1,0 +1,9 @@
+[package]
+name = "hexadecimal"
+version = "0.1.0"
+edition = "2024"
+description = "Hexadecimal string parser and serializer"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
