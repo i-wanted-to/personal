@@ -1,0 +1,8 @@
+[package]
+name = "integer"
+version = "0.1.0"
+edition = "2024"
+description = "Arbitrary-length integer math"
+
+[dependencies]
+cast = { path = "../cast" }
