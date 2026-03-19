@@ -1,0 +1,14 @@
+[package]
+name = "bitcoin_client"
+version = "0.1.0"
+edition = "2024"
+description = "Tools for interacting with the Bitcoin network"
+
+[dependencies]
+bitcoin = { path = "../bitcoin" }
+cast = { path = "../cast" }
+connection = { path = "../connection" }
+error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
+random = { path = "../random" }
+sha = { path = "../sha" }
