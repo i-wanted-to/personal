@@ -1,0 +1,18 @@
+[package]
+name = "tls"
+version = "0.1.0"
+edition = "2024"
+description = "TLS 1.3 wrapper for TCP connections"
+
+[dependencies]
+aes = { path = "../aes" }
+buffer = { path = "../buffer" }
+cast = { path = "../cast" }
+connection = { path = "../connection" }
+ecc = { path = "../ecc" }
+error = { path = "../error" }
+hmac = { path = "../hmac" }
+pem = { path = "../pem" }
+random = { path = "../random" }
+sha = { path = "../sha" }
+x509 = { path = "../x509" }
