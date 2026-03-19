@@ -1,0 +1,12 @@
+[package]
+name = "keypsychic_api"
+version = "0.1.0"
+edition = "2024"
+description = "API for KeyPsychic service"
+
+[dependencies]
+base64 = { path = "../base64" }
+bitcoin = { path = "../bitcoin" }
+bitcoin_client = { path = "../bitcoin_client" }
+error = { path = "../error" }
+webhost = { path = "../webhost" }
