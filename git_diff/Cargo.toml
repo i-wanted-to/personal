@@ -1,0 +1,10 @@
+[package]
+name = "git_diffs"
+version = "0.1.0"
+edition = "2024"
+description = "Convert between a git repository and a sequence of diff files."
+
+[dependencies]
+diff = { path = "../diff" }
+error = { path = "../error" }
+git = { path = "../git" }
