@@ -1,0 +1,10 @@
+[package]
+name = "hashedfile"
+version = "0.1.0"
+edition = "2024"
+description = "Manage a directory of hashed files and references"
+
+[dependencies]
+error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
+sha = { path = "../sha" }
