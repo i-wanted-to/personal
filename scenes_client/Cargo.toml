@@ -1,0 +1,19 @@
+[package]
+name = "scenes"
+version = "0.1.0"
+edition = "2024"
+description = "Demonstration of the basic app platform functionality"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+platform = { path = "../platform" }
+random = { path = "../random" }
+
+[build-dependencies]
+atlas_generator = { path = "../atlas_generator" }
+error = { path = "../error" }
