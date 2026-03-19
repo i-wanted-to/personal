@@ -1,0 +1,9 @@
+[package]
+name = "gitstub"
+version = "0.1.0"
+edition = "2024"
+description = "Utility to copy a git repository, omitting selected data"
+
+[dependencies]
+error = { path = "../error" }
+git = { path = "../git" }
