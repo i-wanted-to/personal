@@ -1,0 +1,14 @@
+[package]
+name = "http"
+version = "0.1.0"
+edition = "2024"
+description = "HTTP server and client with websocket support"
+
+[dependencies]
+base64 = { path = "../base64" }
+buffer = { path = "../buffer" }
+cast = { path = "../cast" }
+connection = { path = "../connection" }
+error = { path = "../error" }
+sha = { path = "../sha" }
+tls = { path = "../tls" }
