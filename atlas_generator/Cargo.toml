@@ -1,0 +1,16 @@
+[package]
+name = "atlas_generator"
+version = "0.1.0"
+edition = "2024"
+description = "Asset pipeline tool to generate packed buffers of display data"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+font = { path = "../font" }
+gvg = { path = "../gvg" }
+hexadecimal = { path = "../hexadecimal" }
+platform = { path = "../platform" }
+png = { path = "../png" }
+sha = { path = "../sha" }
+svg = { path = "../svg" }
