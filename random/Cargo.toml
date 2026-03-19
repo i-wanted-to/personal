@@ -1,0 +1,9 @@
+[package]
+name = "random"
+version = "0.1.0"
+edition = "2024"
+description = "Simple, fast pseudo-random number generator"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
