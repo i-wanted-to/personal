@@ -1,0 +1,12 @@
+[package]
+name = "bitcoin"
+version = "0.1.0"
+edition = "2024"
+description = "Tools for interacting with Bitcoin blockchain data"
+
+[dependencies]
+cast = { path = "../cast" }
+ecc = { path = "../ecc" }
+error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
+sha = { path = "../sha" }
