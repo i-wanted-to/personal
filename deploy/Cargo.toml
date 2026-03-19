@@ -1,0 +1,10 @@
+[package]
+name = "deploy"
+version = "0.1.0"
+edition = "2024"
+description = "Deploys a hosted application, synchronizing files and registering services"
+
+[dependencies]
+error = { path = "../error" }
+sha = { path = "../sha" }
+ssh = { path = "../ssh" }
