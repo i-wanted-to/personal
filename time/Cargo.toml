@@ -1,0 +1,9 @@
+[package]
+name = "time"
+version = "0.1.0"
+edition = "2024"
+description = "Time computation and synchronization"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
