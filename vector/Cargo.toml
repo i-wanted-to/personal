@@ -1,0 +1,8 @@
+[package]
+name = "vector"
+version = "0.1.0"
+edition = "2024"
+description = "2D vector mathematics"
+
+[dependencies]
+cast = { path = "../cast" }
