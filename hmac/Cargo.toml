@@ -1,0 +1,8 @@
+[package]
+name = "hmac"
+version = "0.1.0"
+edition = "2024"
+description = "Hashed message authentication using SHA-1 or SHA-256"
+
+[dependencies]
+sha = { path = "../sha" }
