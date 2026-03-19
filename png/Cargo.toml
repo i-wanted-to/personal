@@ -1,0 +1,15 @@
+[package]
+name = "png"
+version = "0.1.0"
+edition = "2024"
+description = "Portable Network Graphics encoder and decoder"
+
+[dependencies]
+cast = { path = "../cast" }
+crc = { path = "../crc" }
+error = { path = "../error" }
+deflate = { path = "../deflate" }
+
+[dev-dependencies]
+sha = { path = "../sha" }
+hexadecimal = { path = "../hexadecimal" }
