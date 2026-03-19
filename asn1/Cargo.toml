@@ -1,0 +1,9 @@
+[package]
+name = "asn1"
+version = "0.1.0"
+edition = "2024"
+description = "ASN.1 hierarchy manipulator and codec"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
