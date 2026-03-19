@@ -1,0 +1,8 @@
+[package]
+name = "base64"
+version = "0.1.0"
+edition = "2024"
+description = "Codec for creating and consuming base64-encoded data"
+
+[dependencies]
+error = { path = "../error" }
