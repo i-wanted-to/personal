@@ -1,0 +1,12 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+edition = "2024"
+description = "Bridge between Rust and browser APIs"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+
+[build-dependencies]
+error = { path = "../error" }
