@@ -1,0 +1,8 @@
+[package]
+name = "color"
+version = "0.1.0"
+edition = "2024"
+description = "Parse, convert, and manipulate HSL and RGB colors"
+
+[dependencies]
+cast = { path = "../cast" }
