@@ -1,0 +1,9 @@
+[package]
+name = "pem"
+version = "0.1.0"
+edition = "2024"
+description = "PEM codec, supporting single and multi-entry documents"
+
+[dependencies]
+base64 = { path = "../base64" }
+error = { path = "../error" }
