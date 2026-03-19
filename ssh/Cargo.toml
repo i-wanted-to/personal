@@ -1,0 +1,14 @@
+[package]
+name = "ssh"
+version = "0.1.0"
+edition = "2024"
+description = "Secure Shell client"
+
+[dependencies]
+aes = { path = "../aes" }
+cast = { path = "../cast" }
+connection = { path = "../connection" }
+ecc = { path = "../ecc" }
+error = { path = "../error" }
+integer = { path = "../integer" }
+sha = { path = "../sha" }
