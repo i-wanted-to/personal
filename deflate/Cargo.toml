@@ -1,0 +1,9 @@
+[package]
+name = "deflate"
+version = "0.1.0"
+edition = "2024"
+description = "DEFLATE (Huffman + LZ77 + RLE) compression and decompression"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
