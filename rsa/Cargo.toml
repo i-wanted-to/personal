@@ -1,0 +1,13 @@
+[package]
+name = "rsa"
+version = "0.1.0"
+edition = "2024"
+description = "RSA encryption, decryption, key-generation, and signing"
+
+[dependencies]
+asn1 = { path = "../asn1" }
+cast = { path = "../cast" }
+error = { path = "../error" }
+integer = { path = "../integer" }
+random = { path = "../random" }
+sha = { path = "../sha" }
