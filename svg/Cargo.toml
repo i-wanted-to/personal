@@ -1,0 +1,9 @@
+[package]
+name = "svg"
+version = "0.1.0"
+edition = "2024"
+description = "Scalable Vector Graphics parser"
+
+[dependencies]
+error = { path = "../error" }
+vector = { path = "../vector" }
