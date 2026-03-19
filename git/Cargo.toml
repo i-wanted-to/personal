@@ -1,0 +1,12 @@
+[package]
+name = "git"
+version = "0.1.0"
+edition = "2024"
+description = "Git repository reader and writer"
+
+[dependencies]
+cast = { path = "../cast" }
+deflate = { path = "../deflate" }
+error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
+sha = { path = "../sha" }
