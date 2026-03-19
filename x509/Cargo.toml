@@ -1,0 +1,15 @@
+[package]
+name = "x509"
+version = "0.1.0"
+edition = "2024"
+description = "Parser and serializer for X.509 formatted content"
+
+[dependencies]
+asn1 = { path = "../asn1" }
+cast = { path = "../cast" }
+ecc = { path = "../ecc" }   
+error = { path = "../error" }
+integer = { path = "../integer" }
+pem = { path = "../pem" }
+random = { path = "../random" }
+rsa = { path = "../rsa" }
