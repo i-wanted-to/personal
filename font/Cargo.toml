@@ -1,0 +1,9 @@
+[package]
+name = "font"
+version = "0.1.0"
+edition = "2024"
+description = "TTF and OTF font parser"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
