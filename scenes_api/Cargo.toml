@@ -1,0 +1,9 @@
+[package]
+name = "scenes_api"
+version = "0.1.0"
+edition = "2024"
+description = "API for scenes demo application"
+
+[dependencies]
+error = { path = "../error" }
+webhost = { path = "../webhost" }
