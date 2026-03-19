@@ -1,0 +1,8 @@
+[package]
+name = "crc"
+version = "0.1.0"
+edition = "2024"
+description = "CRC32 checksum algorithm"
+
+[dependencies]
+cast = { path = "../cast" }
