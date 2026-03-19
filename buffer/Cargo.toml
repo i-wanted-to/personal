@@ -1,0 +1,8 @@
+[package]
+name = "buffer"
+version = "0.1.0"
+edition = "2024"
+description = "Buffer management, with optional cross-thread pooling"
+
+[dependencies]
+error = { path = "../error" }
