@@ -1,0 +1,10 @@
+[package]
+name = "wave"
+version = "0.1.0"
+edition = "2024"
+description = "Animated vector wave generator"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+platform = { path = "../platform" }
