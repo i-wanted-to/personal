@@ -1,0 +1,14 @@
+[package]
+name = "ecc"
+version = "0.1.0"
+edition = "2024"
+description = "Elliptic Curve key exchange and signing"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+integer = { path = "../integer" }
+sha = { path = "../sha" }
+
+[dev-dependencies]
+random = { path = "../random" }
