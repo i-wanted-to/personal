@@ -1,0 +1,11 @@
+[package]
+name = "connection"
+version = "0.1.0"
+edition = "2024"
+description = "Buffered wrapper for an event-based TCP sockets"
+
+[dependencies]
+buffer = { path = "../buffer" }
+cast = { path = "../cast" }
+error = { path = "../error" }
+socket = { path = "../socket" }
