@@ -1,0 +1,8 @@
+[package]
+name = "build"
+version = "0.1.0"
+edition = "2024"
+description = "Build tools to indicate cross-target dependencies to Cargo"
+
+[dependencies]
+error = { path = "../error" }
