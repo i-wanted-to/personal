@@ -1,0 +1,16 @@
+[package]
+name = "render_video_server"
+version = "0.1.0"
+edition = "2024"
+description = "Video rendering server"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+platform = { path = "../platform" }
+random = { path = "../random" }
+render_video_common = { path = "../render_video_common" }
+webhost = { path = "../webhost" }
+
+[build-dependencies]
+error = { path = "../error" }
