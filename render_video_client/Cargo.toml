@@ -1,0 +1,16 @@
+[package]
+name = "render_video_client"
+version = "0.1.0"
+edition = "2024"
+description = "Video rendering client"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+platform = { path = "../platform" }
+random = { path = "../random" }
+render_video_common = { path = "../render_video_common" }
