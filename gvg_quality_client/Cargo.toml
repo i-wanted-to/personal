@@ -1,0 +1,16 @@
+[package]
+name = "gvg_quality_client"
+version = "0.1.0"
+edition = "2024"
+description = "Client for adjusting GPU Vector Graphics quality"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
+platform = { path = "../platform" }
+gvg_quality_common = { path = "../gvg_quality_common" }
