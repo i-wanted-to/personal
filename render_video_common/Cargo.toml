@@ -1,0 +1,14 @@
+[package]
+name = "render_video_common"
+version = "0.1.0"
+edition = "2024"
+description = "Components shared by the video rendering client, server, plugins, and tools"
+
+[dependencies]
+cast = { path = "../cast" }
+platform = { path = "../platform" }
+error = { path = "../error" }
+
+[build-dependencies]
+error = { path = "../error" }
+atlas_generator = { path = "../atlas_generator" }
