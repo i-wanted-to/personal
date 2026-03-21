@@ -1,0 +1,9 @@
+[package]
+name = "cad_zip"
+version = "0.1.0"
+edition = "2024"
+description = "Compress and uncompress FreeCAD projects"
+
+[dependencies]
+error = { path = "../error" }
+zip = { path = "../zip" }
