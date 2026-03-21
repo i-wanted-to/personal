@@ -1,0 +1,8 @@
+[package]
+name = "prune_dependencies"
+version = "0.1.0"
+edition = "2024"
+description = "Prune dependencies from Rust crates"
+
+[dependencies]
+error = { path = "../error" }
