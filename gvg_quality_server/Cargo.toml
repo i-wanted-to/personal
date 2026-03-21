@@ -1,0 +1,19 @@
+[package]
+name = "gvg_quality_server"
+version = "0.1.0"
+edition = "2024"
+description = "Application server for adjusting the quality of GPU Vector Graphics"
+
+[dependencies]
+atlas_generator = { path = "../atlas_generator" }
+cast = { path = "../cast" }
+error = { path = "../error" }
+gvg = { path = "../gvg" }
+hexadecimal = { path = "../hexadecimal" }
+platform = { path = "../platform" }
+png = { path = "../png" }
+gvg_quality_common = { path = "../gvg_quality_common" }
+webhost = { path = "../webhost" }
+
+[build-dependencies]
+error = { path = "../error" }
