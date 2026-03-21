@@ -1,0 +1,11 @@
+[package]
+name = "archive"
+version = "0.1.0"
+edition = "2024"
+description = "Data backup utility, providing synchronization, validation, and deduplication"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
+sha = { path = "../sha" }
