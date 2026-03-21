@@ -1,0 +1,11 @@
+[package]
+name = "zip"
+version = "0.1.0"
+edition = "2024"
+description = "ZIP archive reader and writer"
+
+[dependencies]
+cast = { path = "../cast" }
+crc = { path = "../crc" }
+deflate = { path = "../deflate" }
+error = { path = "../error" }
