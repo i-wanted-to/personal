@@ -1,0 +1,15 @@
+[package]
+name = "render_video_plugin"
+version = "0.1.0"
+edition = "2024"
+"description" = "Framework for building video rendering plugins"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+platform = { path = "../platform" }
+render_video_common = { path = "../render_video_common" }
+
+[build-dependencies]
+error = { path = "../error" }
+atlas_generator = { path = "../atlas_generator" }
