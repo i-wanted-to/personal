@@ -1,0 +1,10 @@
+[package]
+name = "totp"
+version = "0.1.0"
+edition = "2024"
+description = "Generate time-based one-time passwords from a secret"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+hmac = { path = "../hmac" }
