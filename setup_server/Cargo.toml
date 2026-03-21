@@ -1,0 +1,10 @@
+[package]
+name = "setup_server"
+version = "0.1.0"
+edition = "2024"
+description = "Initialize a remote computer with users and networking rules"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+ssh = { path = "../ssh" }
