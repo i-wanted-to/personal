@@ -1,0 +1,10 @@
+[package]
+name = "gvg_quality_common"
+version = "0.1.0"
+edition = "2024"
+description = "Functionality shared by the GVG quality client and server"
+
+[dependencies]
+atlas_generator = { path = "../atlas_generator" }
+platform = { path = "../platform" }
+error = { path = "../error" }
