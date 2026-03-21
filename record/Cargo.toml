@@ -1,0 +1,11 @@
+[package]
+name = "record"
+version = "0.1.0"
+edition = "2024"
+"description" = "Screen recording tools"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+render_video_common = { path = "../render_video_common" }
+terminal = { path = "../terminal" }
