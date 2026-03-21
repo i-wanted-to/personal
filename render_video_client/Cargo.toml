@@ -12,5 +12,4 @@ crate-type = ["cdylib"]
 cast = { path = "../cast" }
 error = { path = "../error" }
 platform = { path = "../platform" }
-random = { path = "../random" }
 render_video_common = { path = "../render_video_common" }
