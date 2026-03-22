@@ -1,0 +1,18 @@
+[package]
+name = "i_wanted_to"
+version = "0.1.0"
+edition = "2024"
+description = "Personal website"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
+platform = { path = "../platform" }
+random = { path = "../random" }
+sha = { path = "../sha" }
+wave = { path = "../wave" }
