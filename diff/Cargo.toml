@@ -1,0 +1,8 @@
+[package]
+name = "diff"
+version = "0.1.0"
+edition = "2024"
+description = "Find minimal edits between versions, and apply previously-generated edits."
+
+[dependencies]
+error = { path = "../error" }
