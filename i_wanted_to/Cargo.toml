@@ -16,3 +16,7 @@ platform = { path = "../platform" }
 random = { path = "../random" }
 sha = { path = "../sha" }
 wave = { path = "../wave" }
+
+[build-dependencies]
+error = { path = "../error" }
+html = { path = "../html" }
