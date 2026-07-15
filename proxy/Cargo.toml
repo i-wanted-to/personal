@@ -1,0 +1,10 @@
+[package]
+name = "proxy"
+version = "0.1.0"
+edition = "2024"
+description = "Simple TCP proxy"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+totp = { path = "../totp" }
