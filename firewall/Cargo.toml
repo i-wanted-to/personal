@@ -1,0 +1,8 @@
+[package]
+name = "firewall"
+version = "0.1.0"
+edition = "2024"
+description = "Automated firewall management"
+
+[dependencies]
+error = { path = "../error" }
