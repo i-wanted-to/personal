@@ -1,6 +1,6 @@
 [workspace]
 members = ["*"]
-exclude = [".cargo", ".git", ".vscode", "target"]
+exclude = [".git", ".vscode", "target"]
 resolver = "3"
 
 [profile.release]
