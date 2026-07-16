@@ -1,0 +1,13 @@
+[package]
+name = "frame_client"
+version = "0.1.0"
+edition = "2024"
+description = "Client for eink frame API"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+error = { path = "../error" }
+platform = { path = "../platform" }
