@@ -1,0 +1,11 @@
+[package]
+name = "frame_api"
+version = "0.1.0"
+edition = "2024"
+description = "API for eink picture frames"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+png = { path = "../png" }
+webhost = { path = "../webhost" }
