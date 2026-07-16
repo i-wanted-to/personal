@@ -1,0 +1,12 @@
+[package]
+name = "webpages"
+version = "0.1.0"
+edition = "2024"
+description = "Multi-site webpage hosting service"
+
+[dependencies]
+error = { path = "../error" }
+frame_api = { path = "../frame_api" }
+keypsychic_api = { path = "../keypsychic_api" }
+scenes_api = { path = "../scenes_api" }
+webhost = { path = "../webhost" }
