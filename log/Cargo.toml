@@ -1,0 +1,9 @@
+[package]
+name = "log"
+version = "0.1.0"
+edition = "2024"
+description = "Simple logging to file and/or stdout"
+
+[dependencies]
+error = { path = "../error" }
+time = { path = "../time" }
