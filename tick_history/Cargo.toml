@@ -1,0 +1,13 @@
+[package]
+name = "tick_history"
+version = "0.1.0"
+edition = "2024"
+description = "Compact database of historical market data"
+
+[dependencies]
+cast = { path = "../cast" }
+decimal = { path = "../decimal" }
+error = { path = "../error" }
+future = { path = "../future" }
+protobuf = { path = "../protobuf" }
+time = { path = "../time" }
