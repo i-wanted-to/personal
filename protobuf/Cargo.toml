@@ -1,0 +1,9 @@
+[package]
+name = "protobuf"
+version = "0.1.0"
+edition = "2024"
+description = "Codec for protobuf formatted data"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
