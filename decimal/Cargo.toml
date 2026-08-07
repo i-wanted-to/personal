@@ -1,0 +1,9 @@
+[package]
+name = "decimal"
+version = "0.1.0"
+edition = "2024"
+description = "Number type that precisely represents fractional base-10 values."
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
