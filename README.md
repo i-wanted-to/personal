@@ -12,7 +12,7 @@ To achieve this goal, there are some strict rules. This repository contains:
 
 - No dependencies on any libraries or source outside this repository except the Rust standard library
 
-- No use of any tools, shell commands, or paths outside this repository except for the current stable version of Rust
+- No use of any tools, any shell commands, or any paths outside this repository except for the current stable version of Rust
 
 - No internet use when building
 
@@ -38,7 +38,7 @@ This repository's programming language is Rust, and has some language-specific r
 - No linter warnings generated from clippy, with the following settings:
   - Aggressive enforcement
     - Global mode: `pedantic`
-  - No use of the `as` operator to convert values (outside the `cast` crate, see below)
+  - `as` operator to convert values is disallowed outside the `cast` crate (see below)
     - Global deny: `as_conversions`
   - No requirement for public documentation:
     - Global allow: `missing_safety_doc`
@@ -53,4 +53,3 @@ This repository's programming language is Rust, and has some language-specific r
 Together, these rules allow me to work in a single language for any task, on any development machine that supports Rust, using a single IDE instance that inspects, builds, and updates the entire codebase at once.
 
 This simplcity also speeds up development. The consistent code style makes it easy to move around the codebase, and the simple build structure makes builds acceptably fast.
-
