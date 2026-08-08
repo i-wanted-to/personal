@@ -1,0 +1,10 @@
+[package]
+name = "relay"
+version = "0.1.0"
+edition = "2024"
+description = "Simple web relay that caches transferred objects"
+
+[dependencies]
+cast = { path = "../cast" }
+connection = { path = "../connection" }
+error = { path = "../error" }
