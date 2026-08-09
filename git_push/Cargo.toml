@@ -1,0 +1,11 @@
+[package]
+name = "git_push"
+version = "0.1.0"
+edition = "2024"
+description = "Client to push git repositories over HTTP"
+
+[dependencies]
+cast = { path = "../cast" }
+error = { path = "../error" }
+git = { path = "../git" }
+http = { path = "../http" }
