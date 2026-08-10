@@ -5,7 +5,11 @@ edition = "2024"
 description = "Client to push git repositories over HTTP"
 
 [dependencies]
+base64 = { path = "../base64" }
 cast = { path = "../cast" }
+deflate = { path = "../deflate" }
 error = { path = "../error" }
+hexadecimal = { path = "../hexadecimal" }
 git = { path = "../git" }
 http = { path = "../http" }
+sha = { path = "../sha" }
