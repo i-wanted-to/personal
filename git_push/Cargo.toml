@@ -8,6 +8,8 @@ description = "Client to push git repositories over HTTP"
 base64 = { path = "../base64" }
 cast = { path = "../cast" }
 error = { path = "../error" }
+gitstub = { path = "../gitstub" }
+git = { path = "../git" }
 hexadecimal = { path = "../hexadecimal" }
 http = { path = "../http" }
 sha = { path = "../sha" }
