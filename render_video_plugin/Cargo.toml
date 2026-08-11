@@ -5,7 +5,6 @@ edition = "2024"
 "description" = "Framework for building video rendering plugins"
 
 [dependencies]
-cast = { path = "../cast" }
 error = { path = "../error" }
 platform = { path = "../platform" }
 render_video_common = { path = "../render_video_common" }

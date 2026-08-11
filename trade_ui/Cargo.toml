@@ -9,10 +9,8 @@ path = "src/lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-cast = { path = "../cast" }
 error = { path = "../error" }
 platform = { path = "../platform" }
-random = { path = "../random" }
 
 [build-dependencies]
 atlas_generator = { path = "../atlas_generator" }

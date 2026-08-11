@@ -5,9 +5,6 @@ edition = "2024"
 description = "Utility to copy a git repository, omitting selected data"
 
 [dependencies]
-cast = { path = "../cast" }
-deflate = { path = "../deflate" }
 error = { path = "../error" }
 git = { path = "../git" }
 hexadecimal = { path = "../hexadecimal" }
-sha = { path = "../sha" }

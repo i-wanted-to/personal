@@ -7,7 +7,6 @@ description = "Trading server"
 [dependencies]
 cast = { path = "../cast" }
 connection = { path = "../connection" }
-decimal = { path = "../decimal" }
 error = { path = "../error" }
 future = { path = "../future" }
 log = { path = "../log" }
