@@ -9,6 +9,7 @@ path = "src/lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
+cast = { path = "../cast" }
 error = { path = "../error" }
 platform = { path = "../platform" }
 
