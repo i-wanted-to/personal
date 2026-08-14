@@ -9,4 +9,6 @@ cast = { path = "../cast" }
 error = { path = "../error" }
 relay = { path = "../relay" }
 trade_server = { path = "../trade_server" }
+trade_ui = { path = "../trade_ui" }
 time = { path = "../time" }
+vector = { path = "../vector" }
