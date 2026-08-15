@@ -12,7 +12,5 @@ crate-type = ["cdylib"]
 cast = { path = "../cast" }
 error = { path = "../error" }
 platform = { path = "../platform" }
-
-[build-dependencies]
-atlas_generator = { path = "../atlas_generator" }
-error = { path = "../error" }
+time = { path = "../time" }
+trade_clip = { path = "../trade_clip" }

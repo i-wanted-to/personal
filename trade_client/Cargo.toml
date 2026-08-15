@@ -7,8 +7,8 @@ description = "Client for querying trade server information and issuing commands
 [dependencies]
 cast = { path = "../cast" }
 error = { path = "../error" }
+platform = { path = "../platform" }
 relay = { path = "../relay" }
+trade_clip = { path = "../trade_clip" }
 trade_server = { path = "../trade_server" }
-trade_ui = { path = "../trade_ui" }
 time = { path = "../time" }
-vector = { path = "../vector" }

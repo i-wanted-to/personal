@@ -1,0 +1,14 @@
+[package]
+name = "trade_clip"
+version = "0.1.0"
+edition = "2024"
+description = "Model for segments of trade activity"
+
+[dependencies]
+error = { path = "../error" }
+platform = { path = "../platform" }
+time = { path = "../time" }
+
+[build-dependencies]
+atlas_generator = { path = "../atlas_generator" }
+error = { path = "../error" }
